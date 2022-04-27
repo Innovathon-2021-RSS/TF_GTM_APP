@@ -1,0 +1,17 @@
+{
+  "/api": {
+    "target": "http://www.siscomex.gov.br/exportacao/feed/",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "logLevel": "debug",
+    "changeOrigin": true
+  },
+  "/auth": {
+    "target": "http://www.siscomex.gov.br/exportacao/feed/",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
